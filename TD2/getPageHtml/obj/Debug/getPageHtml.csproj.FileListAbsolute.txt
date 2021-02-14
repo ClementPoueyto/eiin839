@@ -1,0 +1,7 @@
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\bin\Debug\getPageHtml.exe.config
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\bin\Debug\getPageHtml.exe
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\bin\Debug\getPageHtml.pdb
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\obj\Debug\getPageHtml.csproj.CoreCompileInputs.cache
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\obj\Debug\getPageHtml.exe
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\obj\Debug\getPageHtml.pdb
+C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\getPageHtml\obj\Debug\getPageHtml.csprojAssemblyReference.cache

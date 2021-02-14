@@ -56,9 +56,37 @@ namespace Echo
             {
 
                 string str = reader.ReadString();
-                Console.WriteLine(str);
-                writer.Write(str);
+                Console.WriteLine("RECU "+str);
+                if(str.StartsWith("GET"))
+                {
+                    writer.Write(parsePath(str));
+                }
+                else
+                {
+                    writer.Write("ERREUR REQUETE");
+
+                }
             }
+        }
+
+        private String parsePath(String path)
+        {
+            String res = "http:/1.0 ";
+         
+            if (path.Split(" ").Length>1&&path.Split(" ")[1].StartsWith("/"))
+            {
+                try {
+                    String html = File.ReadAllText("../../../www/pub" + path.Split(" ")[1]);
+                    return html;
+
+                }
+                catch
+                {
+                    return res+"404 NOT FOUND";
+                }
+
+                }
+            return res + "404 NOT FOUND";
         }
 
 

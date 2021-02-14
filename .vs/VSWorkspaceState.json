@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TD1",
+    "\\TD1\\Echo",
+    "\\TD1\\Echo\\ChatClient",
+    "\\TD1\\Echo\\ChatServer",
+    "\\TD1\\HttpListener",
+    "\\TD1\\HttpListener\\BasicServerHttpListener",
+    "\\TD2\\BasicWebServer"
+  ],
+  "SelectedNode": "\\TD1\\Echo\\ChatClient\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
