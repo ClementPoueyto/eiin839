@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Header.cs" />
+<<<<<<< HEAD
     <Compile Include="Header2.cs" />
+=======
+>>>>>>> origin/TD2
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

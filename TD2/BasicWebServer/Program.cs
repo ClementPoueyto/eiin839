@@ -86,18 +86,25 @@ namespace BasicServerHTTPlistener
                 //get path in url 
                 Console.WriteLine(request.Url.LocalPath);
 
+<<<<<<< HEAD
                 string page="";
+=======
+>>>>>>> origin/TD2
                 // parse path in url 
                 foreach (string str in request.Url.Segments)
                 {
                     Console.WriteLine(str);
+<<<<<<< HEAD
                     page = str;
+=======
+>>>>>>> origin/TD2
                 }
 
                 //get params un url. After ? and between &
 
                 Console.WriteLine(request.Url.Query);
 
+<<<<<<< HEAD
                 string param1 = "name";
                 string param2 = "age";
                 string param3 = "city";
@@ -105,6 +112,12 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine("param1 = " + HttpUtility.ParseQueryString(request.Url.Query).Get(param1));
                 Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get(param2));
                 Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get(param3));
+=======
+                //parse params in url
+                Console.WriteLine("param1 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param1"));
+                Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
+                Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param3"));
+>>>>>>> origin/TD2
                 Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
 
                 //
@@ -112,6 +125,7 @@ namespace BasicServerHTTPlistener
 
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
+<<<<<<< HEAD
                 string responseString = "<HTML><BODY> Hello world!";
 
                 //questions 2 4 6
@@ -147,6 +161,11 @@ namespace BasicServerHTTPlistener
 
                 }
                 responseString += "</ BODY ></ HTML > ";
+=======
+
+                // Construct a response.
+                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+>>>>>>> origin/TD2
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;

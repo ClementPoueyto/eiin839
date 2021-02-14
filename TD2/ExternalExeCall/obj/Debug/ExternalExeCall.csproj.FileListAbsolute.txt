@@ -12,6 +12,7 @@ D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ExternalExeCall\
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ExternalExeCall\obj\Debug\ExternalExeCall.csproj.CoreCompileInputs.cache
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ExternalExeCall\obj\Debug\ExternalExeCall.exe
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ExternalExeCall\obj\Debug\ExternalExeCall.pdb
+<<<<<<< HEAD
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\bin\Debug\ExternalExeCall.exe.config
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\bin\Debug\ExternalExeCall.exe
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\bin\Debug\ExternalExeCall.pdb
@@ -19,3 +20,5 @@ C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\obj\Debug\Ext
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.csproj.CoreCompileInputs.cache
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.exe
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.pdb
+=======
+>>>>>>> origin/TD2

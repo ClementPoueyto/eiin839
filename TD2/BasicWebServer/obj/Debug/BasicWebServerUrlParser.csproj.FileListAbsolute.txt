@@ -5,6 +5,7 @@ C:\Users\Utopsia\test\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServerUrlPars
 C:\Users\Utopsia\test\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.CoreCompileInputs.cache
 C:\Users\Utopsia\test\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServer.exe
 C:\Users\Utopsia\test\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServer.pdb
+<<<<<<< HEAD
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\bin\Debug\BasicWebServer.exe.config
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\bin\Debug\BasicWebServer.exe
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\bin\Debug\BasicWebServer.pdb
@@ -12,3 +13,5 @@ C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\obj\Debug\Basi
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.CoreCompileInputs.cache
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServer.exe
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServer.pdb
+=======
+>>>>>>> origin/TD2

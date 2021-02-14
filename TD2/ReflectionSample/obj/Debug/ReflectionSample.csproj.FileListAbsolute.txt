@@ -5,6 +5,7 @@ D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample\bin\Debug\ReflectionSample.pdb
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample\obj\Debug\ReflectionSample.exe
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample\obj\Debug\ReflectionSample.pdb
+<<<<<<< HEAD
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\bin\Debug\ReflectionSample.exe.config
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\bin\Debug\ReflectionSample.exe
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\bin\Debug\ReflectionSample.pdb
@@ -12,3 +13,5 @@ C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\obj\Debug\Re
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\obj\Debug\ReflectionSample.csproj.CoreCompileInputs.cache
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\obj\Debug\ReflectionSample.exe
 C:\Users\pouey\Documents\cours\SI4\soc\eiin839\TD2\ReflectionSample\obj\Debug\ReflectionSample.pdb
+=======
+>>>>>>> origin/TD2
