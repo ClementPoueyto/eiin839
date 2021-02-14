@@ -86,20 +86,25 @@ namespace BasicServerHTTPlistener
                 //get path in url 
                 Console.WriteLine(request.Url.LocalPath);
 
+                string page="";
                 // parse path in url 
                 foreach (string str in request.Url.Segments)
                 {
                     Console.WriteLine(str);
+                    page = str;
                 }
 
                 //get params un url. After ? and between &
 
                 Console.WriteLine(request.Url.Query);
 
+                string param1 = "name";
+                string param2 = "age";
+                string param3 = "city";
                 //parse params in url
-                Console.WriteLine("param1 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param1"));
-                Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
-                Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param3"));
+                Console.WriteLine("param1 = " + HttpUtility.ParseQueryString(request.Url.Query).Get(param1));
+                Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get(param2));
+                Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get(param3));
                 Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
 
                 //
@@ -107,9 +112,41 @@ namespace BasicServerHTTPlistener
 
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
+                string responseString = "<HTML><BODY> Hello world!";
 
-                // Construct a response.
-                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                //questions 2 4 6
+                if (request.Url.Segments.Length>3&&request.Url.Segments[1]=="td2/"&&request.Url.Segments[2] == "question/")
+                {
+                    if (request.Url.Segments[3] == "2") // question 2
+                    {
+                        // Construct a response.
+                        responseString += "<h2> Question 2 </h2>";
+                        responseString += "<h2>" + HttpUtility.ParseQueryString(request.Url.Query).Get(param1) + "</h2>";
+                        responseString += "<h2>" + HttpUtility.ParseQueryString(request.Url.Query).Get(param2) + "</h2>";
+                        responseString += "<h2>" + HttpUtility.ParseQueryString(request.Url.Query).Get(param3) + "</h2>";
+                        
+                    }
+                    else if (request.Url.Segments[3] == "4") //question 4
+                    {
+
+                        MyMethods myMethod = new MyMethods();
+                        responseString += myMethod.getPageHtml(HttpUtility.ParseQueryString(request.Url.Query).Get(param1), HttpUtility.ParseQueryString(request.Url.Query).Get(param2));
+
+                    }
+                    else //question 6
+                    {
+                        callExternalService callExternalService = new callExternalService();
+                        responseString +=callExternalService.call(HttpUtility.ParseQueryString(request.Url.Query).Get(param1), HttpUtility.ParseQueryString(request.Url.Query).Get(param2));
+                    }
+                }
+                else
+                {
+                    responseString += "<h2> " +  "404 not found" + "</h2>";
+                    responseString += "<h2> " + request.Url + "</h2>";
+                    responseString += "chemin a tester : http://localhost:8080/td2/question/2?name=jean&age=2&city=toulon";
+
+                }
+                responseString += "</ BODY ></ HTML > ";
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;
