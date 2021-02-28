@@ -12,7 +12,7 @@ namespace TD3
 
         static readonly HttpClient client = new HttpClient();
 
-        static async Task Main()
+        static async Task Main(string[] args)
         {
             // Call asynchronous network methods in a try/catch block to handle exceptions.
             try
@@ -20,8 +20,17 @@ namespace TD3
                 string url = "https://api.jcdecaux.com/vls/v3/";
                 string data = "stations";
                 string apiKey = "1e8fa1e0e4cf13b66a513ec8f8c2efaf51a4f3f9";
-                string contract = "brisbane";
-                HttpResponseMessage response = await client.GetAsync(url + data + "?contract=brisbane&apiKey=" + apiKey);
+                string contract;
+                if (args.Length > 0)
+                {
+                    contract = args[0];
+                }
+                else
+                {
+                    contract = Console.ReadLine();
+
+                }
+                HttpResponseMessage response = await client.GetAsync(url + data + "?contract="+contract+"&apiKey=" + apiKey);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
                 Station[] stations = JsonSerializer.Deserialize<Station[]>(responseBody);

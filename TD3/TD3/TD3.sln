@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListStation", "ListStation.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListContracts", "..\contract\ListContracts.csproj", "{7125C62B-A7F6-413A-97A1-23997A921800}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station", "..\Station\Station.csproj", "{594647A2-354D-428E-8DA3-AD901C547FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS", "..\GPS\GPS.csproj", "{C78AE3A1-696B-4984-B80C-A4360F39BB9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7125C62B-A7F6-413A-97A1-23997A921800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7125C62B-A7F6-413A-97A1-23997A921800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7125C62B-A7F6-413A-97A1-23997A921800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594647A2-354D-428E-8DA3-AD901C547FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594647A2-354D-428E-8DA3-AD901C547FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594647A2-354D-428E-8DA3-AD901C547FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594647A2-354D-428E-8DA3-AD901C547FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78AE3A1-696B-4984-B80C-A4360F39BB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78AE3A1-696B-4984-B80C-A4360F39BB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78AE3A1-696B-4984-B80C-A4360F39BB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78AE3A1-696B-4984-B80C-A4360F39BB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
