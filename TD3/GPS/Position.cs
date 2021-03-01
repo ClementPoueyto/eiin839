@@ -8,8 +8,8 @@ namespace TD3
 {
     public class Position
     {
-        public Double lat { get; set; }
-        public Double lng { get; set; }
+        public Double latitude { get; set; }
+        public Double longitude { get; set; }
 
         public Position()
         {
@@ -18,14 +18,14 @@ namespace TD3
 
         public Position(double latitude, double longitude)
         {
-            this.lat = latitude;
-            this.lng = longitude;
+            this.latitude = latitude;
+            this.longitude = longitude;
         }
 
         public override string ToString()
         {
-            return "latitude : " + this.lat + "\n" +
-                "longitude : " + this.lng;
+            return "latitude : " + this.latitude + "\n" +
+                "longitude : " + this.longitude;
         }
     }
 }
